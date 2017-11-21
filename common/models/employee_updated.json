@@ -1,0 +1,34 @@
+{
+  "name": "Employee",
+  "plural": "Employees",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "string",
+      "required": true
+    },
+    "Office_num": {
+      "type": "number",
+    },
+	  "Password": {
+	  "type": "string",
+	  }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
